@@ -55,9 +55,7 @@ class _HomePageState extends State<HomePage> {
                     return Container(
                       height: 100,
                       decoration: BoxDecoration(
-                          color: popularDiets[index].boxIsSelected
-                              ? Colors.white
-                              : Colors.transparent,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(16),
                           boxShadow: [
                             BoxShadow(
